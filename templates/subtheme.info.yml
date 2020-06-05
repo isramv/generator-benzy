@@ -1,0 +1,19 @@
+name: <%= name %>
+type: theme
+base theme: benzy
+description: 'Child theme of benzy named <%= name %>.'
+core: 8.x
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  navigation: 'Navigation'
+  page_top: 'Page top'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
+
+libraries:
+  - <%= name %>/base
+  - benzy/stickyAnchorLinks

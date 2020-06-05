@@ -1,0 +1,16 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "description": "Build manifest for frontend assets",
+  "scripts": {
+    "global-gulp": "gulp --gulpfile ../../../../themes/custom/benzy/gulpfile.js --cwd $INIT_CWD",
+    "build": "yarn symlink-dependencies && yarn global-gulp build",
+    "dev": "yarn symlink-dependencies && yarn global-gulp dev",
+    "lint": "yarn symlink-dependencies && yarn global-gulp lint",
+    "browsersync": "yarn symlink-dependencies && yarn global-gulp browsersync",
+    "preinstall": "echo '========\n    ERROR: Dependencies should only be installed in the benzy theme.\n========' && exit 1",
+    "initialize-core": "yarn --cwd ../../../../themes/custom/benzy/",
+    "symlink-dependencies": "yarn initialize-core && rm -rf node_modules && ln -s ../../../../themes/custom/benzy/node_modules ./"
+  }
+}
