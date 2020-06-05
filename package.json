@@ -1,17 +1,27 @@
 {
   "name": "generator-benzy",
-  "version": "0.1.0",
-  "description": "Yeoman generator for benzy themes on drupal.",
-  "files": [
-    "generators"
-  ],
+  "version": "1.0.0",
+  "description": "Yeoman generator for sub-themes for benzy'",
+  "main": "index.js",
+  "dependencies": {
+    "yeoman-generator": "^4.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isramv/generator-benzy.git"
+  },
   "keywords": [
     "yeoman-generator",
     "drupal"
   ],
-  "repository": "https://github.com/isramv/generator-benzy",
-  "dependencies": {
-    "yeoman-generator": "^4.10.1"
+  "author": "Israel Morales (isramv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isramv/generator-benzy/issues"
   },
-  "license": "MIT"
+  "homepage": "https://github.com/isramv/generator-benzy#readme"
 }
