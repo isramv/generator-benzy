@@ -1,13 +1,15 @@
 {
   "name": "generator-benzy",
   "version": "0.1.0",
-  "description": "",
+  "description": "Yeoman generator for benzy themes on drupal.",
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "drupal"
   ],
+  "repository": "https://github.com/isramv/generator-benzy",
   "dependencies": {
     "yeoman-generator": "^4.10.1"
   },
