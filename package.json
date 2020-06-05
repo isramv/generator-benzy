@@ -1,0 +1,17 @@
+{
+  "name": "generator-benzy",
+  "version": "1.0.0",
+  "description": "This yeoman package generates a benzy sub-theme structure",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.10.1"
+  },
+  "author": "Israel Morales Valdivia",
+  "license": "MIT",
+  "private": true
+}
