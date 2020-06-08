@@ -1,9 +1,8 @@
 $typekit-font-url: 'https://use.typekit.net/dme4leu.css';
 $font-primary: lato, sans-serif;
 
-// sass-lint:disable no-color-keywords
-$black: black;
-$white: white;
+$black: #000;
+$white: #fff;
 $grey: #333f48;
 $grey--light: lighten($grey, 20%);
 $grey--lightest: lighten($grey, 50%);
@@ -17,4 +16,3 @@ $secondary-color--dark: darken($secondary-color, 20%);
 $tertiary-color: #007cd5;
 $tertiary-color--light: lighten($tertiary-color, 20%);
 $tertiary-color--dark: darken($tertiary-color, 20%);
-// sass-lint:enable no-color-keywords

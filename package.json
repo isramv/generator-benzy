@@ -2,7 +2,7 @@
   "name": "generator-benzy",
   "version": "1.0.0",
   "description": "Yeoman generator for sub-themes for benzy'",
-  "main": "index.js",
+  "main": "app/index.js",
   "dependencies": {
     "yeoman-generator": "^4.10.1"
   },
@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/isramv/generator-benzy.git"
   },
+  "files": [
+    "app"
+  ],
   "keywords": [
     "yeoman-generator",
     "drupal"

@@ -21,14 +21,11 @@ module.exports = class extends Generator {
   }
 
   writingTemplates() {
-    this.log("Copying libraries file."),
-      this.fs.copyTpl(
-        this.templatePath("subtheme.libraries.yml"),
-        this.destinationPath(
-          `${this.answers.name}/${this.answers.name}.libraries.yml`
-        ),
-        { name: this.answers.name }
-      );
+    this.fs.copyTpl(
+      this.templatePath("subtheme.libraries.yml"),
+      this.destinationPath(`${this.answers.name}/${this.answers.name}.libraries.yml`),
+      { name: this.answers.name }
+    );
 
     this.fs.copyTpl(
       this.templatePath("subtheme.info.yml"),
