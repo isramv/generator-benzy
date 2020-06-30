@@ -2,4 +2,3 @@ base:
   css:
     theme:
       css/<%= name %>.css: {}
-
